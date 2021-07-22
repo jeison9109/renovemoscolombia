@@ -1,0 +1,138 @@
+.header {
+  background-color: rgb(37, 143, 78);
+  height: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 100%;
+  display: flex;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgb(237, 50, 55);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+/*.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  max-width: 1500px;
+}*/
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-gap: 5px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: center;
+  margin-right: 0.5rem;
+
+  /*display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;*/
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  justify-content: space-between;
+  /*padding: 0.5rem 0.5rem;*/
+
+  /* border-bottom: 3px solid transparent;*/
+}
+
+.nav-item {
+  align-items: center;
+  line-height: 40px;
+  margin-right: 1rem;
+}
+
+.nav-item:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.9s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+  background: rgb(37, 143, 78);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+/*.nav-item .active {
+}*/
+
+.nav-icon {
+  display: none;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+  }
+
+  .nav-menu.active {
+    background-color: rgb(73, 112, 162);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .nav-links {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    display: inline-flexbox;
+  }
+
+  .nav-icon {
+    display: block;
+    top: 0;
+    right: 0;
+    transform: translate(-10%, 10%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    /*display: block;
+    font-size: 2.5rem;
+    cursor: pointer;*/
+  }
+}

@@ -1,0 +1,16 @@
+.container-2 {
+  margin-top: 2px;
+  column-width: 250px;
+  column-gap: 20px;
+  background-color: rgb(245, 133, 52);
+  padding: 5px;
+}
+
+.card {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  background-color: rgb(73, 112, 162);
+  border: 2px solid rgb(55, 56, 102);
+  padding: 10px;
+  margin: 0 0 1em 0;
+}

@@ -1,0 +1,40 @@
+/* Create three equal columns that floats next to each other */
+.column {
+  margin-top: 2px;
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  text-align: justify;
+  background-color: rgb(245, 133, 52);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-1 {
+  padding-left: 15px;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  background-color: rgb(37, 143, 78);
+}
+
+footer {
+  font-size: 0.8rem;
+  /*margin-top: 10.25rem;*/
+  background-color: rgb(215, 216, 217);
+  padding: 0.625rem 0;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    border-bottom: 1.3px solid rgb(215, 216, 217);
+  }
+}
