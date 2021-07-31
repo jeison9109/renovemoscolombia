@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+  .titulo-1 {
+    display: block;
+    font-size: 1.5rem;
+  }
+  .contenedor-prin {
+    display: block;
+    width: 97%;
+  }
+
+  .footer-1 {
+    display: block;
+    font-size: 0.5rem;
+  }
+  .footer-1 p {
+    font-size: 1.1rem;
+  }
+  footer p {
+    font-size: 1.1rem;
+  }
+}
