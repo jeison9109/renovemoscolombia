@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { MenuItems } from "../Screens/MenuItems";
 import { NavLink } from "react-router-dom";
 import "../Components/Dropdown.css";
-
+/*
 function Dropdown() {
   const [click, setClick] = useState(false);
 

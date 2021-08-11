@@ -28,3 +28,10 @@
   color: #fff;
   padding: 14.2px;
 }
+
+@media screen and (max-width: 960px) {
+  .dropdown-menu.clicked {
+    display: inline-block;
+    background-color: blanchedalmond;
+  }
+}
