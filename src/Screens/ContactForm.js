@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Formulario.css";
+import "./styles/Formulario.css";
 import UncontrolledLottie from "../Components/UncrontolledLottie";
 
 //import { useForm, ValidationError } from "@formspree/react";

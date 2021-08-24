@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 body {
-  background-color: rgb(215, 216, 217);
+  background-color: rgb(255, 255, 255);
   margin: auto;
   padding: 0px;
   overflow-x: hidden;
@@ -71,7 +71,7 @@ li {
   list-style-type: none;
 }
 .menu-item a {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 40px;
   position: relative;

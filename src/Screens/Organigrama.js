@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import UncontrolledLottie2 from "../Components/UncontrolledLottie2";
 import { Tree, TreeNode } from "react-organizational-chart";
 import styled, { keyframes } from "styled-components";
-import "../Screens/Organigrama.css";
+import "./styles/Organigrama.css";
 
 const StyledNode = styled.div`
   padding: 5px;
@@ -46,53 +46,57 @@ const Organigrama = () => {
           lineWidth={"2px"}
           lineColor={"green"}
           lineBorderRadius={"10px"}
-          label={<StyledNode>COMITE NACIONAL</StyledNode>}
+          label={<StyledNode>Congreso Nacional</StyledNode>}
         >
-          <TreeNode label={<StyledNode>DIRECCION GENERAL</StyledNode>}>
+          <TreeNode label={<StyledNode>Dirección Nacional </StyledNode>}>
+            <TreeNode label={<StyledNode>Presidencia</StyledNode>} />
             <TreeNode
-              label={<StyledNode>Comision Politica Nacional</StyledNode>}
+              label={<StyledNode>Comité Ejecutivo Nacional </StyledNode>}
             />
           </TreeNode>
-          <TreeNode label={<StyledNode>SECRETARIA GENERAL</StyledNode>}>
-            <TreeNode label={<StyledNode>Direccion administrativa</StyledNode>}>
-              <TreeNode label={<StyledNode>Direccion Juridica</StyledNode>} />
-              <TreeNode label={<StyledNode>Direccion Financiera</StyledNode>} />
+          <TreeNode
+            label={<StyledNode>Dirección Ejecutiva Nacional</StyledNode>}
+          >
+            <TreeNode label={<StyledNode></StyledNode>}>
+              <TreeNode label={<StyledNode></StyledNode>} />
+              <TreeNode label={<StyledNode></StyledNode>} />
             </TreeNode>
           </TreeNode>
-          <TreeNode label={<StyledNode>CONTROL</StyledNode>}>
-            <TreeNode label={<StyledNode>Consejo Etico</StyledNode>} />
-            <TreeNode label={<StyledNode>Veedor</StyledNode>} />
+
+          <TreeNode label={<StyledNode>Secretaría General </StyledNode>}>
+            <TreeNode label={<StyledNode></StyledNode>} />
+            <TreeNode label={<StyledNode></StyledNode>} />
           </TreeNode>
         </Tree>
       </div>
 
       <div className="footer-1">
         <UncontrolledLottie2 />
-        <p>Contactanos: Whatsapp +57 300 123 4567</p>
+        <p>Contactanos: Whatsapp +57 316 8215321</p>
         <p>Siguenos en nuestras redes sociales...</p>
         <div className="top-redes">
-          <a href="https://www.youtube.com/channel/UC7gilKuSRhW1XyGF-D6LGVg">
+          <a href="">
             <FontAwesomeIcon
               icon={faYoutube}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.facebook.com/jduc19/">
+          <a href="https://www.facebook.com/Renovemos-Colombia-148371330712136/">
             <FontAwesomeIcon
               icon={faFacebook}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.instagram.com/jduc19/?hl=es-la">
+          <a href="">
             <FontAwesomeIcon
               icon={faInstagram}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.instagram.com/jduc19/?hl=es-la">
+          <a href="">
             <FontAwesomeIcon
               icon={faWhatsapp}
               style={{ fontSize: "1.5rem", color: "white" }}

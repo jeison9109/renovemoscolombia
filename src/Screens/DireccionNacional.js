@@ -51,7 +51,9 @@ const DireccionNacional = () => {
     <div className="efecto">
       <div className={classes.root} className="efecto">
         <div className="titulo-1">
-          <h1 className="animate__animated animate__heartBeat">DIRECCION NACIONAL</h1>
+          <h1 className="animate__animated animate__heartBeat">
+            DIRECCION NACIONAL
+          </h1>
         </div>
         <Grid container spacing={3}>
           <Grid item xs={6} sm={3}>
@@ -214,31 +216,31 @@ const DireccionNacional = () => {
         </Grid>
         <div className="footer-1">
           <UncontrolledLottie2 />
-          <p>Contactanos: Whatsapp +57 300 123 4567</p>
+          <p>Contactanos: Whatsapp +57 316 8215321</p>
           <p>Siguenos en nuestras redes sociales...</p>
           <div className="top-redes">
-            <a href="https://www.youtube.com/channel/UC7gilKuSRhW1XyGF-D6LGVg">
+            <a href="">
               <FontAwesomeIcon
                 icon={faYoutube}
                 style={{ fontSize: "1.5rem", color: "white" }}
               />
             </a>
 
-            <a href="https://www.facebook.com/jduc19/">
+            <a href="https://www.facebook.com/Renovemos-Colombia-148371330712136/">
               <FontAwesomeIcon
                 icon={faFacebook}
                 style={{ fontSize: "1.5rem", color: "white" }}
               />
             </a>
 
-            <a href="https://www.instagram.com/jduc19/?hl=es-la">
+            <a href="">
               <FontAwesomeIcon
                 icon={faInstagram}
                 style={{ fontSize: "1.5rem", color: "white" }}
               />
             </a>
 
-            <a href="https://www.instagram.com/jduc19/?hl=es-la">
+            <a href="">
               <FontAwesomeIcon
                 icon={faWhatsapp}
                 style={{ fontSize: "1.5rem", color: "white" }}

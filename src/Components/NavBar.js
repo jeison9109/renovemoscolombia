@@ -92,28 +92,28 @@ const NavBar = () => {
 
                 <ul className={boxClass.join(" ")}>
                   <div className="menu-item1">
-                    <a href="https://www.youtube.com/channel/UC7gilKuSRhW1XyGF-D6LGVg">
+                    <a href="">
                       <FontAwesomeIcon
                         icon={faYoutube}
                         style={{ fontSize: "2rem", color: "black" }}
                       />
                     </a>
 
-                    <a href="https://www.facebook.com/jduc19/">
+                    <a href="https://www.facebook.com/Renovemos-Colombia-148371330712136/">
                       <FontAwesomeIcon
                         icon={faFacebook}
                         style={{ fontSize: "2rem", color: "black" }}
                       />
                     </a>
 
-                    <a href="https://www.instagram.com/jduc19/?hl=es-la">
+                    <a href="">
                       <FontAwesomeIcon
                         icon={faInstagram}
                         style={{ fontSize: "2rem", color: "black" }}
                       />
                     </a>
 
-                    <a href="https://www.instagram.com/jduc19/?hl=es-la">
+                    <a href="">
                       <FontAwesomeIcon
                         icon={faWhatsapp}
                         style={{ fontSize: "2rem", color: "black" }}
@@ -131,7 +131,7 @@ const NavBar = () => {
                       Inicio{" "}
                     </NavLink>
                   </li>
-                  <li className="menu-item ">
+                  {/*<li className="menu-item ">
                     <NavLink
                       onClick={toggleClass}
                       activeClassName="is-active"
@@ -140,7 +140,7 @@ const NavBar = () => {
                       {" "}
                       Lideres Juveniles{" "}
                     </NavLink>{" "}
-                  </li>
+                  </li>*/}
                   <li
                     onClick={toggleSubmenu}
                     className="menu-item sub__menus__arrows"
@@ -166,7 +166,7 @@ const NavBar = () => {
                         <NavLink
                           onClick={toggleClass}
                           activeClassName="is-active"
-                          to={`/DireccionNacional`}
+                          to={`/CandidatosNacional`}
                         >
                           {" "}
                           Direccion Nacional{" "}

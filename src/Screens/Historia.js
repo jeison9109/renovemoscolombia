@@ -1,5 +1,5 @@
 import React from "react";
-import "./Historia.css";
+import "./styles/Historia.css";
 import {
   faFacebook,
   faInstagram,
@@ -23,7 +23,8 @@ const Historia = () => {
             sostenible desde una ecología integral, animalista, y así fortalecer
             la administración pública e impulsar el desarrollo económico, social
             y cultural, basados en los principios de la confianza, la
-            cooperación, la fraternidad, la libertad, la inclusión y la igualdad
+            cooperación, la fraternidad, la libertad, la inclusión y la
+            igualdad.
           </p>
         </div>
 
@@ -43,41 +44,40 @@ const Historia = () => {
           <p>
             En el 2024, Renovemos Colombia tendrá un posicionamiento como
             alternativa de poder, con representación a nivel municipal,
-            departamental y nacional, en el Congreso de la República, aportará
-            de manera con la finalidad de transformar significativamente a la
-            transformación de un mejor al país, fortaleciendo y generando nuevas
-            propuestas que permitan la su consolidación desde desarrollo
-            político, económico, social y cultural. de nuestro país.
+            departamental y nacional, con la finalidad de transformar
+            significativamente al país, fortaleciendo y generando nuevas
+            propuestas que permitan su consolidación desde desarrollo político,
+            económico, social y cultural
           </p>
         </div>
       </div>
       <div className="footer-1">
         <UncontrolledLottie2 />
-        <p>Contactanos: Whatsapp +57 300 123 4567</p>
+        <p>Contactanos: Whatsapp +57 316 8215321</p>
         <p>Siguenos en nuestras redes sociales...</p>
         <div className="top-redes">
-          <a href="https://www.youtube.com/channel/UC7gilKuSRhW1XyGF-D6LGVg">
+          <a href="">
             <FontAwesomeIcon
               icon={faYoutube}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.facebook.com/jduc19/">
+          <a href="https://www.facebook.com/Renovemos-Colombia-148371330712136/">
             <FontAwesomeIcon
               icon={faFacebook}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.instagram.com/jduc19/?hl=es-la">
+          <a href="">
             <FontAwesomeIcon
               icon={faInstagram}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.instagram.com/jduc19/?hl=es-la">
+          <a href="">
             <FontAwesomeIcon
               icon={faWhatsapp}
               style={{ fontSize: "1.5rem", color: "white" }}

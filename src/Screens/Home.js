@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./styles/Home.css";
 import {
   faFacebook,
   faInstagram,
@@ -27,22 +27,15 @@ const Home = () => {
           donde con las distintas posiciones ideológicas, religiosas, raciales,
           sociales, económicas y de género, podamos construir un nuevo proyecto
           de nación. Basados en la libertad de un pensamiento vanguardista y
-          defensor incansable de los Derechos Fundamentales y Constitucionales.
-          Conformada por líderes empresariales, juventudes, campesinos,
-          religiosos, culturales y sociales, libres e independientes, con
-          vocación de participación política a nivel local, regional y nacional,
-          como alternativa de pensamiento ideológico y participativo en Colombia
+          defensor incansable de los Derechos Constitucionales.
         </p>
 
         <p>
-          Nam vulputate diam nec tempor bibendum. Donec luctus augue eget
-          malesuada ultrices. Phasellus turpis est, posuere sit amet dapibus ut,
-          facilisis sed est. Nam id risus quis ante semper consectetur eget
-          aliquam lorem. Vivamus tristique elit dolor, sed pretium metus
-          suscipit vel. Mauris ultricies lectus sed lobortis finibus. Vivamus eu
-          urna eget velit cursus viverra quis vestibulum sem. Aliquam tincidunt
-          eget purus in interdum. Cum sociis natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus.
+          Conformada por líderes empresariales, juventudes, campesinos,
+          religiosos, culturales y sociales, libres e independientes, con
+          vocación de participación política a nivel local, regional y nacional,
+          como alternativa de pensamiento ideológico y participativo en
+          Colombia.
         </p>
       </div>
 
@@ -50,7 +43,7 @@ const Home = () => {
         <div className="logo-1 efecto">
           <img src={logo} alt="logo"></img>
           <div class="texto-encima">
-            <p>UNIDOS MARCAMOS LA DIFERENCIA</p>
+            {/* <p>UNIDOS MARCAMOS LA DIFERENCIA</p>*/}
           </div>
         </div>
       </div>
@@ -62,40 +55,38 @@ const Home = () => {
           <h2> Social Feed </h2>
         </div>
         <Timeline
-          dataSource={{ sourceType: "profile", screenName: "lafm" }}
-          options={{ height: 800, width: 600, id: "profile: lafm" }}
+          dataSource={{ sourceType: "profile", screenName: "CamaraColombia" }}
+          options={{ height: 800, width: 600, id: "profile: CamaraColombia" }}
         />
       </div>
 
       <div className="footer-1">
         <UncontrolledLottie2 />
-        <p>Contactanos: Whatsapp +57 300 123 4567</p>
-
+        <p>Contactanos: Whatsapp +57 316 8215321</p>
         <p>Siguenos en nuestras redes sociales...</p>
-
         <div className="top-redes">
-          <a href="https://www.youtube.com/channel/UC7gilKuSRhW1XyGF-D6LGVg">
+          <a href="">
             <FontAwesomeIcon
               icon={faYoutube}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.facebook.com/jduc19/">
+          <a href="https://www.facebook.com/Renovemos-Colombia-148371330712136/">
             <FontAwesomeIcon
               icon={faFacebook}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.instagram.com/jduc19/?hl=es-la">
+          <a href="">
             <FontAwesomeIcon
               icon={faInstagram}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.instagram.com/jduc19/?hl=es-la">
+          <a href="">
             <FontAwesomeIcon
               icon={faWhatsapp}
               style={{ fontSize: "1.5rem", color: "white" }}

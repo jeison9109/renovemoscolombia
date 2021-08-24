@@ -24,12 +24,12 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./Candidatos.css";
+import "./styles/Candidatos.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 340,
-    minWidth: 165,
+    minWidth: 200,
     marginTop: 10,
   },
   media: {
@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
 const useStyles3 = makeStyles((theme) => ({
   root3: {
     maxWidth: 340,
-    minWidth: 165,
+    minWidth: 200,
     marginTop: 10,
   },
   media: {
@@ -75,7 +75,7 @@ const useStyles3 = makeStyles((theme) => ({
 const useStyles2 = makeStyles((theme) => ({
   root2: {
     maxWidth: 340,
-    minWidth: 165,
+    minWidth: 200,
     marginTop: 10,
   },
   media: {
@@ -100,7 +100,7 @@ const useStyles1 = makeStyles((theme) => ({
     padding: 1,
   },
   paper: {
-    padding: theme.spacing(1),
+    padding: theme.spacing(2),
     textAlign: "center",
     color: theme.palette.text.secondary,
   },
@@ -138,7 +138,7 @@ const Candidatos = () => {
             <h1>ESTRUCTURA ORGANIZACIONAL</h1>
           </div>
           <Grid container spacing={2}>
-            <Grid item xs={6} sm={2}>
+            <Grid item xs={8} sm={2}>
               <Card className={classes.root}>
                 <CardHeader
                   title="Camara de Representantes"
@@ -196,7 +196,7 @@ const Candidatos = () => {
               </Card>
             </Grid>
 
-            <Grid item xs={6} sm={2}>
+            <Grid item xs={8} sm={2}>
               <Card className={classes2.root2}>
                 <CardHeader
                   title="Camara de Representantes"
@@ -254,7 +254,7 @@ const Candidatos = () => {
               </Card>
             </Grid>
 
-            <Grid item xs={6} sm={2}>
+            <Grid item xs={8} sm={2}>
               <Card className={classes3.root3}>
                 <CardHeader
                   title="Camara de Representantes"
@@ -602,31 +602,31 @@ const Candidatos = () => {
       </div>
       <div className="footer-1">
         <UncontrolledLottie2 />
-        <p>Contactanos: Whatsapp +57 300 123 4567</p>
+        <p>Contactanos: Whatsapp +57 316 8215321</p>
         <p>Siguenos en nuestras redes sociales...</p>
         <div className="top-redes">
-          <a href="https://www.youtube.com/channel/UC7gilKuSRhW1XyGF-D6LGVg">
+          <a href="">
             <FontAwesomeIcon
               icon={faYoutube}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.facebook.com/jduc19/">
+          <a href="https://www.facebook.com/Renovemos-Colombia-148371330712136/">
             <FontAwesomeIcon
               icon={faFacebook}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.instagram.com/jduc19/?hl=es-la">
+          <a href="">
             <FontAwesomeIcon
               icon={faInstagram}
               style={{ fontSize: "1.5rem", color: "white" }}
             />
           </a>
 
-          <a href="https://www.instagram.com/jduc19/?hl=es-la">
+          <a href="">
             <FontAwesomeIcon
               icon={faWhatsapp}
               style={{ fontSize: "1.5rem", color: "white" }}
