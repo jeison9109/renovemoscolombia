@@ -49,15 +49,50 @@ const Home = () => {
       </div>
 
       {/*SOCIAL FEED*/}
-      <div className="twitter efecto">
-        <div className="titulo-twitter">
+      <div className="">
+        <div className="">
           <UncontrolledLottie1 />
           <h2> Social Feed </h2>
         </div>
-        <Timeline
-          dataSource={{ sourceType: "profile", screenName: "CamaraColombia" }}
-          options={{ height: 800, width: 600, id: "profile: CamaraColombia" }}
-        />
+        <div className="flexbox-container">
+          <div className="container-tw">
+            <Timeline
+              dataSource={{
+                sourceType: "profile",
+                screenName: "Renovemos_Colom",
+              }}
+              options={{
+                height: 500,
+                width: 350,
+
+                id: "profile: Renovemos_Colom",
+              }}
+            />
+          </div>
+
+          <div className="container-fb">
+            <div
+              className="fb-page container-fb"
+              href="https://www.facebook.com/CeDemocratico/"
+              tabs="timeline"
+              width="350"
+              height="500"
+              small_header="true"
+              adapt_container_width="false"
+              data_hide_cover="true"
+              data_show_facepile="true"
+            >
+              <blockquote
+                cite="https://www.facebook.com/CeDemocratico/"
+                className="fb-xfbml-parse-ignore"
+              >
+                <a href="https://www.facebook.com/CeDemocratico/">
+                  CeDemocratico
+                </a>
+              </blockquote>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="footer-1">
@@ -72,7 +107,7 @@ const Home = () => {
             />
           </a>
 
-          <a href="https://www.facebook.com/Renovemos-Colombia-148371330712136/">
+          <a href="">
             <FontAwesomeIcon
               icon={faFacebook}
               style={{ fontSize: "1.5rem", color: "white" }}
