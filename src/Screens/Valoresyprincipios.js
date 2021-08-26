@@ -12,10 +12,12 @@ import UncontrolledLottie2 from "../Components/UncontrolledLottie2";
 const Valoresyprincipios = () => {
   return (
     <>
-      <div className="titulo-1 efecto">
-        <h1 className="animate__animated animate__heartBeat">
-          NUESTROS PILARES
-        </h1>
+      <div className="efecto">
+        <div className="titulo-principios">
+          <h1 className="animate__animated animate__heartBeat">
+            NUESTROS PILARES
+          </h1>
+        </div>
       </div>
       <div className="container-2 efecto">
         <div className="card">

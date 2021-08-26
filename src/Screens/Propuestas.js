@@ -17,15 +17,16 @@ const Propuestas = () => {
         <h1 className="animate__animated animate__heartBeat">
           OBJETIVOS DE RENOVEMOS COLOMBIA
         </h1>
-        <p>
-          Mi sueño es generar cambios económicos y sostenibles que nos incluyan
-          y fortalezcan a todos los jóvenes. Tenemos que consolidar procesos de
-          desarrollo local y regional que contribuyan a la construcción de la
-          paz. Sueño con una sociedad donde los jóvenes entiendan que no somos
-          el futuro sino el presente.
-        </p>
-        <UncontrolledLottie3 />
       </div>
+      <p>
+        Mi sueño es generar cambios económicos y sostenibles que nos incluyan y
+        fortalezcan a todos los jóvenes. Tenemos que consolidar procesos de
+        desarrollo local y regional que contribuyan a la construcción de la paz.
+        Sueño con una sociedad donde los jóvenes entiendan que no somos el
+        futuro sino el presente.
+      </p>
+      <UncontrolledLottie3 />
+
       <div className="sub-titulo1">
         <h2>Medio Ambiente</h2>
         <p>Adaptarnos y reducir los efectos del cambio climatico</p>
@@ -39,6 +40,8 @@ const Propuestas = () => {
         <p>Adaptarnos y reducir los efectos del cambio climatico</p>
       </div>
 
+      <div className="twitter"></div>
+
       <div className="footer-1">
         <UncontrolledLottie2 />
         <p>Contactanos: Whatsapp +57 316 8215321</p>
@@ -51,7 +54,7 @@ const Propuestas = () => {
             />
           </a>
 
-          <a href="https://www.facebook.com/Renovemos-Colombia-148371330712136/">
+          <a href="">
             <FontAwesomeIcon
               icon={faFacebook}
               style={{ fontSize: "1.5rem", color: "white" }}

@@ -131,7 +131,7 @@ const NavBar = () => {
                       Inicio{" "}
                     </NavLink>
                   </li>
-                  {/*<li className="menu-item ">
+                  <li className="menu-item ">
                     <NavLink
                       onClick={toggleClass}
                       activeClassName="is-active"
@@ -140,7 +140,7 @@ const NavBar = () => {
                       {" "}
                       Lideres Juveniles{" "}
                     </NavLink>{" "}
-                  </li>*/}
+                  </li>
                   <li
                     onClick={toggleSubmenu}
                     className="menu-item sub__menus__arrows"
@@ -166,7 +166,7 @@ const NavBar = () => {
                         <NavLink
                           onClick={toggleClass}
                           activeClassName="is-active"
-                          to={`/CandidatosNacional`}
+                          to={`/DireccionNacional`}
                         >
                           {" "}
                           Direccion Nacional{" "}
@@ -208,7 +208,7 @@ const NavBar = () => {
                     <NavLink
                       onClick={toggleClass}
                       activeClassName="is-active"
-                      to={`/Candidatos`}
+                      to={`/CandidatosNacional`}
                     >
                       {" "}
                       Candidatos{" "}

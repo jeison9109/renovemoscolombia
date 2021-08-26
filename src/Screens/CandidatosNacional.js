@@ -3,9 +3,10 @@ import { CandidatoList } from "../Components/candidatos/CandidatoList";
 
 export const CandidatosNacional = () => {
   return (
-    <div>
-      <h1>Candidatos</h1>
-      <hr />
+    <div className="efecto">
+      <div className="titulo-1">
+        <h1 className="animate__animated animate__heartBeat">Candidatos</h1>
+      </div>
 
       <CandidatoList publisher="Camara de Representantes" />
     </div>

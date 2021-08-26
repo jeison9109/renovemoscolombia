@@ -35,7 +35,7 @@ const slideAnim = keyframes`
 const Organigrama = () => {
   return (
     <div className="efecto">
-      <div className="titulo-1">
+      <div className="titulo-organigrama">
         <h1 className="animate__animated animate__heartBeat">
           ESTRUCTURA ORGANIZACIONAL
         </h1>

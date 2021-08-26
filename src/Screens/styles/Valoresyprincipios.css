@@ -15,6 +15,14 @@
   margin: 0 0 1em 0;
 }
 
+.titulo-principios {
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 5px rgb(245, 133, 52);
+}
+
 @media screen and (max-width: 600px) {
   .footer-1 {
     display: block;
