@@ -52,7 +52,6 @@ const Home = () => {
       <div className="">
         <div className="">
           <UncontrolledLottie1 />
-          <h2> Social Feed </h2>
         </div>
         <div className="flexbox-container">
           <div className="container-tw">
@@ -73,7 +72,7 @@ const Home = () => {
           <div className="container-fb">
             <div
               className="fb-page container-fb"
-              href="https://www.facebook.com/CeDemocratico/"
+              href="https://www.facebook.com/Gustavo-Guío-102950102099323/"
               tabs="timeline"
               width="350"
               height="500"
@@ -83,11 +82,11 @@ const Home = () => {
               data_show_facepile="true"
             >
               <blockquote
-                cite="https://www.facebook.com/CeDemocratico/"
+                cite="https://www.facebook.com/Gustavo-Guío-102950102099323/"
                 className="fb-xfbml-parse-ignore"
               >
-                <a href="https://www.facebook.com/CeDemocratico/">
-                  CeDemocratico
+                <a href="https://www.facebook.com/Gustavo-Guío-102950102099323/">
+                  Renovemos Colombia
                 </a>
               </blockquote>
             </div>

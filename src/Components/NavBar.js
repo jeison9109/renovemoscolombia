@@ -162,6 +162,7 @@ const NavBar = () => {
                           Historia{" "}
                         </NavLink>{" "}
                       </li>
+
                       <li>
                         <NavLink
                           onClick={toggleClass}
@@ -172,6 +173,7 @@ const NavBar = () => {
                           Direccion Nacional{" "}
                         </NavLink>{" "}
                       </li>
+
                       <li>
                         <NavLink
                           onClick={toggleClass}

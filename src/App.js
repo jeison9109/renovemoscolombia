@@ -8,7 +8,7 @@ import Propuestas from "./Screens/Propuestas";
 import Historia from "./Screens/Historia";
 
 import Valoresyprincipios from "./Screens/Valoresyprincipios";
-
+import { DireccionNacional } from "./Screens/DireccionNacional";
 import Organigrama from "./Screens/Organigrama";
 import { CandidatoScreen } from "./Components/candidatos/CandidatoScreen";
 
@@ -29,6 +29,11 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route exact path="/Propuestas" component={Propuestas}></Route>
+          <Route
+            exact
+            path="/DireccionNacional"
+            component={DireccionNacional}
+          ></Route>
           <Route exact path="/Contacts" component={Contacts}></Route>
           <Route exact path="/Historia" component={Historia}></Route>
           <Route exact path="/Propuestas" component={Propuestas}></Route>
@@ -52,7 +57,7 @@ function App() {
             component={CandidatoScreen}
           />
 
-          <Redirect to="/" />
+          {/*<Redirect to="/inicio" />*/}
         </Switch>
       </Router>
     </>

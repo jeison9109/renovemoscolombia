@@ -87,4 +87,13 @@ export const candidatos = [
     first_appearance: "Experiencia muy corta",
     characters: "info llamativa",
   },
+
+  {
+    id: "ld-Juan",
+    superhero: "Juan Jose Lozano",
+    publisher: "Direccion Nacional",
+    alter_ego: "Estudiante Admon Empresas 7semestre - UTS",
+    first_appearance: "Experiencia muy corta",
+    characters: "info llamativa",
+  },
 ];
